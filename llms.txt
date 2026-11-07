@@ -1,0 +1,22 @@
+# Track Sheet Guide
+
+> An independent, plain guide to MultitrackStudio 11.4: what Lite, Standard and Pro do, what each one costs, and how to record and mix a song with it, taken from the vendor's own pages.
+
+Independent guides to Multitrackstudio by Track Sheet Guide. Facts come from the vendor's pages on the date shown on each page.
+
+## Decide
+- [MultitrackStudio review: a complete recorder for a one time price, with clear edition limits](https://multitrackstudio.github.io/review.html): MultitrackStudio 11.4.2 review: features, edition limits, €74 and €134 one time prices, lifetime updates, pros and cons and a 7.6/10 verdict.
+- [MultitrackStudio price: Lite, Standard and Pro compared, with upgrade and refund terms](https://multitrackstudio.github.io/pricing.html): MultitrackStudio price checked 7 Nov 2026: Lite free to try, Standard €74, Pro €134 once, €64 upgrade, lifetime updates, 30 day money back.
+- [MultitrackStudio system requirements: Windows, Mac, ARM, drivers and plugins](https://multitrackstudio.github.io/system-requirements.html): MultitrackStudio system requirements: Windows 11 to 7, macOS 27 to OS X 10.11, Apple Silicon, Windows on ARM, ASIO and Core Audio, VST3, CLAP, AU.
+
+## Do it
+- [MultitrackStudio download: Lite 11.4.2 for Windows and Mac, and how to install it](https://multitrackstudio.github.io/download.html): MultitrackStudio download: free Lite 11.4.2, 16.8 MB for Windows, 18.8 MB for Mac. What Lite includes, licence terms and install steps.
+- [How to record with MultitrackStudio: from an empty song to a mixed file](https://multitrackstudio.github.io/record-a-song.html): How to record with MultitrackStudio: set devices, add a click track, record audio and MIDI tracks, then Mix Down to WAV or MP3. Menu names from the manual.
+- [MultitrackStudio not recording? The documented fixes for common problems](https://multitrackstudio.github.io/troubleshooting.html): MultitrackStudio not recording, out of sync or showing Buffer over/underrun? The vendor's documented fixes, with the exact settings to change.
+
+## Compare
+- [MultitrackStudio vs REAPER: price, licence, trial and platforms compared](https://multitrackstudio.github.io/vs-reaper.html): MultitrackStudio vs REAPER: €74 or €134 once with lifetime updates against $60 or $225 with updates to 8.99, trials, platforms and plugins compared.
+- [MultitrackStudio alternatives: other multitrack recorders for Windows, Mac and Linux](https://multitrackstudio.github.io/alternatives.html): MultitrackStudio alternatives for Windows, Mac and Linux: REAPER, Audacity, Ardour, GarageBand, Waveform Free, Cakewalk and Mixcraft, and when to pick one.
+
+## Full text
+- [llms-full.txt](https://multitrackstudio.github.io/llms-full.txt): every guide on this site in plain markdown

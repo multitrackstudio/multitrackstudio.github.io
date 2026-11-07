@@ -1,0 +1,121 @@
+/* Track Sheet Guide: visual identity measured from the target page */
+:root{
+  --bg:#ffffff;
+  --fg:#545454;
+  --ink:#000000;
+  --muted:#888888;
+  --card:#eeeeee;
+  --bar:#e0e0e0;
+  --dark:#464646;
+  --dark-a:#464646cc;
+  --green:#4caf50;
+  --green-dark:#43a047;
+  --on-dark:#ffffff;
+  --r-sm:4px;
+  --r:8px;
+  --maxw:960px;
+  --pad:14px;
+  --gap:16px;
+  --font:Arial,sans-serif;
+  --font-title:Verdana,Arial,sans-serif;
+  --font-serif:Georgia,serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 14px/22px var(--font);overflow-wrap:break-word}
+img,svg{max-width:100%}
+a{color:var(--fg)}
+.skip{position:absolute;left:-999px;top:0;background:var(--ink);color:#fff;padding:8px 14px;z-index:20}
+.skip:focus{left:0}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 var(--pad)}
+
+/* banner + tabs */
+.top{background:linear-gradient(var(--dark-a),var(--dark-a)) left bottom/100% 38px no-repeat,url(banner.svg) center top/auto 122px repeat-x,var(--dark);color:var(--on-dark)}
+header.site{max-width:var(--maxw);height:84px;margin:0 auto;padding:8px var(--pad) 0;text-align:center}
+header.site .tag{margin:0;font:700 14px/22px var(--font-title);color:var(--on-dark)}
+header.site .brand{margin:10px 0 0;font:400 42px/44px var(--font-title);color:var(--on-dark)}
+header.site .brand a{color:var(--on-dark);text-decoration:none}
+nav.tabs{max-width:var(--maxw);height:38px;margin:0 auto;display:flex;align-items:stretch;overflow-x:auto;overflow-y:hidden;scrollbar-width:none}
+nav.tabs::-webkit-scrollbar,.subnav .in::-webkit-scrollbar{display:none}
+nav.tabs a{flex:none;padding:0 var(--pad);line-height:38px;color:var(--on-dark);text-decoration:none;white-space:nowrap}
+nav.tabs a:hover{text-decoration:underline}
+nav.tabs a[aria-current]{background:var(--bar);color:var(--ink)}
+nav.tabs a.hbtn{align-self:center;margin:0 var(--pad) 0 auto;height:26px;line-height:26px;padding:0 12px;background:var(--green);color:var(--on-dark);font-weight:700;border-radius:var(--r-sm)}
+nav.tabs a.hbtn:hover{background:var(--green-dark);text-decoration:none}
+.subnav{background:var(--bar);margin:0 0 28px}
+.subnav .in{max-width:var(--maxw);height:38px;margin:0 auto;display:flex;overflow-x:auto;overflow-y:hidden;scrollbar-width:none}
+.subnav a{flex:none;padding:0 var(--pad);line-height:38px;color:var(--ink);text-decoration:none;white-space:nowrap}
+.subnav a:hover{text-decoration:underline}
+.subnav a[aria-current]{background:var(--bg)}
+.subnav .ver{flex:none;margin-left:auto;padding:0 var(--pad);line-height:38px;color:var(--ink);font-style:italic;white-space:nowrap}
+a:focus-visible,summary:focus-visible{outline:2px solid var(--green);outline-offset:2px}
+nav.tabs a:focus-visible{outline-color:#fff;outline-offset:-4px}
+
+/* main column */
+.main{max-width:var(--maxw);margin:0 auto;padding:0 var(--pad)}
+.main h1{margin:0 0 8px;text-align:center;font:700 28px/34px var(--font);color:var(--fg)}
+.main .meta{margin:0 0 14px;text-align:center;color:var(--muted)}
+.main .lead{margin:0 0 22px;text-align:center}
+.main .herocta{margin:0 0 22px;text-align:center}
+.btn{display:inline-block;height:38px;padding:0 16px;border:0;border-radius:var(--r-sm);background:var(--green);color:var(--on-dark);font:700 14px/38px var(--font);text-decoration:none;text-align:center;cursor:pointer;white-space:nowrap}
+.btn:hover{background:var(--green-dark)}
+.note{margin:8px 0 0;color:var(--muted)}
+
+/* cards */
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--gap);margin:0 0 24px}
+.grid.ragged{align-items:start}
+.card{min-width:0;padding:14px;border:2px solid var(--card);border-radius:var(--r);background:var(--card);text-align:center}
+.card.wide{grid-column:1/-1}
+.card h2{margin:0 0 16px;font:700 18px/21px var(--font);color:var(--fg)}
+.card p{margin:0 0 14px}
+.card a{color:var(--fg)}
+.card a.btn{color:var(--on-dark);text-decoration:none}
+.card .gap-top{padding-top:22px}
+.card ul,.card ol{margin:0 0 14px;padding-left:22px;text-align:left}
+.card li{margin:0 0 6px}
+.card li:last-child{margin-bottom:0}
+.card blockquote{margin:0 0 14px;padding:0 0 0 14px;border-left:4px solid var(--bar);text-align:left;font-style:italic}
+.card .badge{display:inline-block;line-height:0}
+.card .badge img{display:block;width:120px;height:40px}
+.card .p-start{text-align:left}
+.kf{list-style:none;padding:0 !important;text-align:left}
+.kf li{display:flex;justify-content:space-between;gap:12px;padding:6px 0;border-bottom:1px solid var(--bar);margin:0 !important;break-inside:avoid}
+.kf li span:first-child{font-weight:700}
+.kf li span:last-child{text-align:right}
+.facts .kf{columns:2;column-gap:32px}
+.tablewrap{margin:0 0 14px;overflow-x:auto;text-align:left}
+table{width:100%;border-collapse:collapse;background:var(--bg)}
+th,td{padding:6px 8px;border:1px solid var(--bar);text-align:left;vertical-align:top}
+th{background:var(--bar);color:var(--ink);font-weight:700}
+.faq details{margin:0 0 8px;padding:8px 14px;border-radius:var(--r-sm);background:var(--bg);text-align:left}
+.faq details:last-child{margin-bottom:0}
+.faq summary{cursor:pointer;font-weight:700}
+.faq details p{margin:8px 0 0}
+
+/* quote strip */
+.pull{position:relative;margin:24px 0;padding:0 12px;color:var(--muted);font-style:italic;font-weight:700}
+.pull p{margin:0}
+.pull::before,.pull::after{position:absolute;font:400 28px/28px var(--font-serif);font-style:normal;color:var(--muted)}
+.pull::before{content:"\201C";left:0;top:-4px}
+.pull::after{content:"\201D";right:0;bottom:-12px}
+
+/* footer */
+footer.site{margin-top:14px;padding:8px 14px;font-size:10px;line-height:11px;color:var(--fg);text-align:right}
+footer.site nav{margin:0 0 6px}
+footer.site nav a{margin-left:14px;font-size:14px;line-height:22px;color:var(--fg)}
+footer.site p{margin:0}
+
+/* helper pages (go.html, 404.html) */
+.btn[disabled],.btn[aria-disabled=true]{opacity:.45;pointer-events:none}
+
+@media (max-width:900px){
+  .grid{grid-template-columns:minmax(0,1fr)}
+  .facts .kf{columns:1}
+  .subnav .ver{display:none}
+}
+@media (max-width:600px){
+  header.site{height:66px;padding-top:4px}
+  header.site .tag{font-size:11px;line-height:16px}
+  header.site .brand{margin-top:6px;font-size:28px;line-height:36px}
+  .main h1{font-size:18px;line-height:24px}
+}

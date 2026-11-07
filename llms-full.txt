@@ -1,0 +1,774 @@
+# Track Sheet Guide: all guides
+
+# MultitrackStudio 11.4: what it is, what the three editions cost and where to start
+
+URL: https://multitrackstudio.github.io/index.html
+Updated: 2026-11-07
+
+MultitrackStudio is an audio and MIDI multitrack recorder for Windows and Mac from Bremmers Audio Design. This guide explains what the free Lite edition does, what Standard and Pro add, and how to get from install to a finished mix.
+
+## Key facts
+
+- Current version: 11.4.2, 20 October 2026
+- Lite: Free to try, 3 tracks
+- Standard: €74 once
+- Pro: €134 once
+- Updates: Lifetime, free
+- Platforms: Windows and Mac
+- Checked: 2026-11-07
+
+MultitrackStudio is a multitrack audio and MIDI recording program for Windows and Mac made by Bremmers Audio Design. The free Lite edition records up to 3 tracks; Standard (€74) removes the track limit and Pro (€134) adds high sample rates, multichannel recording and full automation. Each licence is a one time purchase with lifetime free updates.
+
+## What MultitrackStudio does
+
+MultitrackStudio turns a Windows PC or a Mac into a multitrack recorder. You can build a song one track at a time, playing along with what you already recorded, or record a whole band at once if your sound device has enough inputs. Audio and MIDI live side by side in the same song, so a vocal take, a guitar part and a MIDI piano can sit in one mixer.
+The program is made by Bremmers Audio Design, a small Dutch developer that has sold it since 2001. The current release is 11.4.2, dated 20 October 2026 on the vendor's [download page](download.html), where the free Lite installer is 16.8 MB for Windows and 18.8 MB for Mac.
+The feature set covers the whole path from microphone to finished file: recording with punch in and loop takes, editing audio and MIDI (piano roll, score, drum and pattern editors), a mixer with unlimited effect return and group sections, built in effects and instruments, plugin hosting for VST, CLAP and Audio Unit, and a mixdown to a single audio file.
+
+## Three editions, one program
+
+There is one installer and three levels of licence. Lite is the free level and its main limit is three tracks. Standard removes the track limit and the 30 minute track length cap and adds vocal pitch correction, the guitar amp, a master limiter and MP3, FLAC and M4A export. Pro adds what a project studio with a multichannel interface needs: up to 140 recording channels, 88.2 to 192 kHz recording, 24 bit and 32 bit float files, automation of every fader and knob, and external sidechaining.
+Prices are €74 for Standard and €134 for Pro, VAT included, paid once. The full line between editions, the upgrade price and the refund terms are on the [MultitrackStudio pricing page](pricing.html) of this guide.
+|  | Lite | Standard | Pro |
+|---|---|---|---|
+| Price | Free | €74 once | €134 once |
+| Tracks | 3 | Unlimited | Unlimited |
+| Recording channels at once | 2 | 2 | Up to 140 |
+| Sample rates | 44.1, 48 kHz | 44.1, 48 kHz | Up to 192 kHz |
+| Full automation | No | No | Yes |
+
+## Pages in this guide
+
+- Review: A scored verdict with pros and cons, based on the vendor's feature list and prices.
+- Pricing: Lite, Standard and Pro side by side, the €64 upgrade and the 30 day money back terms.
+- Download: Installer sizes, the current version and the first steps after install.
+- Record a song: The vendor's quick start procedure, from Studio > Devices to Mix Down.
+- System requirements: Windows, Mac, Windows on ARM, drivers, plugin formats and hardware.
+- Troubleshooting: The documented fixes for silent recording, sync drift and buffer errors.
+- Comparisons: MultitrackStudio against REAPER, and a list of other recorders worth a look.
+
+## Who it suits
+
+MultitrackStudio fits a home recordist who wants a complete recorder without a subscription, and who works on both Windows and Mac: the vendor says the licence key file works on all your computers and is not tied to one machine. It also suits people with a touchscreen or a Microsoft Surface, which have their own chapters in the manual, and MIDI users who want MIDI 2.0 support.
+It is less of a fit if you need Linux, or if you already work in a large commercial DAW with a big ecosystem of tutorials. Our [MultitrackStudio review](review.html) weighs those limits, and the [MultitrackStudio vs REAPER](vs-reaper.html) page compares it with the closest low cost rival.
+
+## Where to start
+
+Start with Lite. It is the same program with a three track ceiling, enough to check that your sound device, microphone and MIDI keyboard work with it. Then follow the vendor's quick start, rewritten step by step on our [how to record a song in MultitrackStudio](record-a-song.html) page. If recording is silent or tracks drift out of sync, the [MultitrackStudio troubleshooting](troubleshooting.html) page lists the documented fixes.
+When you hit the track limit, buy Standard or Pro on the vendor's site. Payment runs through Paddle, and the vendor offers a 30 day money back guarantee.
+- Install Lite and set your sound device in Studio > Devices
+- Record a test song with a click track
+- Decide between Standard and Pro by the number of inputs you record at once
+- Buy once; updates are free for life
+
+> One program, three licence levels, no subscription. Start free with three tracks and pay once when you need more.
+
+
+## FAQ
+
+**Is MultitrackStudio free?**
+
+The Lite edition is free to download and try. Its main limit is three tracks, and it also caps track length at 30 minutes and leaves out pitch correction and MP3 export. Standard and Pro are paid once.
+
+**Who makes MultitrackStudio?**
+
+Bremmers Audio Design, a small developer whose site carries a 2001 to 2026 copyright. The program, the manual and the iPad version all come from that one vendor.
+
+**Does MultitrackStudio run on Mac?**
+
+Yes. The Mac version is a Universal Binary for Apple Silicon and Intel, and the vendor lists macOS 27 back to OS X 10.11. Plugins can be Audio Unit, CLAP, VST3 or VST2.
+
+**Is MultitrackStudio a subscription?**
+
+No. Standard costs €74 and Pro €134, once, VAT included. The buy page says every licence comes with lifetime free updates.
+
+**Can I use one licence on Windows and Mac?**
+
+The vendor says the licence key file works on all your computers and the program is not tied to one machine. The buy page lists Windows and Mac as covered platforms.
+
+**What is the latest version?**
+
+Version 11.4.2, dated 20 October 2026 on the vendor's download page. It added a 175% interface size, VST3 support for MIDI 2.0 per note controllers and better CPU efficiency on Windows on ARM.
+
+
+---
+
+# MultitrackStudio review: a complete recorder for a one time price, with clear edition limits
+
+URL: https://multitrackstudio.github.io/review.html
+Updated: 2026-11-07
+
+This MultitrackStudio review looks at version 11.4.2 through the vendor's own feature list, tech specs and prices: what you get in each edition, where the limits sit and who should buy which licence.
+
+## Key facts
+
+- Score: 7.6 / 10
+- Version: 11.4.2
+- Standard: €74 once
+- Pro: €134 once
+- Updates: Lifetime, free
+- Refund: 30 day money back
+- Checked: 2026-11-07
+
+MultitrackStudio scores 7.6 out of 10 in this review. It covers recording, MIDI, editing, mixing and mixdown for a one time €74 (Standard) or €134 (Pro) with lifetime free updates and one key for all your computers. The limits are clear: Standard records only two channels at 44.1 or 48 kHz, and there is no Linux version.
+
+## Verdict (7.6/10)
+
+For a songwriter recording one or two sources at a time, Standard at €74 is a complete recorder with pitch correction, MP3 export and free updates for life. Buy Pro only if your interface records more than two inputs at once, if you want 96 kHz or 24 bit files, or if you need full automation.
+
+## MultitrackStudio review in short
+
+In this MultitrackStudio review the score rests on what the vendor documents, not on lab tests. The program records audio and MIDI, edits both, mixes with built in effects and plugins, and renders a final file. It runs on Windows 11 to 7 (64 bit, 32 bit and native Windows on ARM) and on macOS as a Universal Binary for Apple Silicon and Intel.
+Two things stand out. First, the price model: Standard is €74 and Pro €134, paid once, and the buy page promises lifetime free updates. Second, the licence key file is not tied to a computer, so a laptop and a desktop, or a PC and a Mac, run on the same purchase. The trade off is a strict line between editions, which the [MultitrackStudio pricing](pricing.html) page lays out row by row.
+
+## Features
+
+- Recording: Multiple, alternate and partial takes, punch in and out, loop and sound on sound recording, click track and a practice mode.
+- MIDI: Piano roll, score, drum and pattern editors, built in General MIDI instruments, sampler, SoundFont player, MIDI 2.0 and MIDI-CI.
+- Effects: Compressor, EQ, reverb, echo, deesser, Vocal Tuner and more, plus VST, CLAP and AU plugins with ARA 2 and delay compensation.
+- Mixing: Unlimited effect return and group sections, mixer section templates and a master section with dither and noise shaping.
+- Touch and remote: Touchscreen and pen support, control surfaces and a free iPad remote app.
+
+## Standard or Pro
+
+Standard is where most home users should land. Compared with Lite it removes the three track ceiling and the 30 minute track length cap, and adds vocal pitch correction, the guitar amp and tuner, a master limiter, time stretching in the editors and export to MP3, FLAC and M4A.
+Pro is for a different setup. The tech specs give lower editions two simultaneous recording channels at 44.1 or 48 kHz into 16 bit files. Pro raises that to up to 140 channels, depending on the interface, sample rates up to 192 kHz and 24 bit, 32 bit and 32 bit float files. It also adds automation of every fader and rotary knob, external sidechaining, the Multitrack Editor, VariSpeed, stem export and the multiband compressor. If you record a drum kit with eight microphones, you need Pro; a singer with a guitar does not.
+
+## Platform support and plugins
+
+Plugin support is broad for a program this size: CLAP, VST3 and VST2 on Windows, plus Audio Unit v2 and v3 on Mac, with ARA 2 for CLAP, VST3 and AU. On Windows on ARM the program is built as ARM64EC, so existing x64 plugins still load. The audio engine uses up to eight CPU cores and processes in 32 bit.
+Driver support on Windows covers ASIO, WASAPI, MME and DirectSound; on Mac it is Core Audio. The full list, including the macOS version range, is on the [MultitrackStudio system requirements](system-requirements.html) page.
+
+## Pros and cons
+
+Pros:
+- One time price with lifetime free updates
+- Licence key file works on all your computers, Windows and Mac
+- Small installer, under 20 MB
+- CLAP, VST3, VST2 and AU plugins, ARA 2
+- Native Windows on ARM and Apple Silicon builds
+- MIDI 2.0 support
+- 30 day money back guarantee
+Cons:
+- Lite stops at three tracks
+- Standard records only two channels at 44.1 or 48 kHz, 16 bit
+- Full automation and sidechain are Pro only
+- Prices are listed in euro only
+- No Linux version
+- Small vendor with a smaller tutorial base than the big DAWs
+
+## How it compares
+
+The obvious rival on price is REAPER, which costs more for commercial users but has no edition split. The [MultitrackStudio vs REAPER](vs-reaper.html) page puts both vendors' terms in one table. If neither fits, the [MultitrackStudio alternatives](alternatives.html) page lists free and paid recorders for Windows, Mac and Linux.
+
+Installer sizes, version details and first steps are on the [MultitrackStudio download](download.html) page.
+
+## FAQ
+
+**Is MultitrackStudio good for beginners?**
+
+The vendor's quick start takes you from an empty song to a mixed file in about ten steps, and the manual is available online and as a PDF in English, German and Dutch. The interface is one window with a mixer and tracks, so there is less to learn than in larger DAWs.
+
+**Is MultitrackStudio Pro worth it over Standard?**
+
+Only if you need what Pro adds: more than two inputs at once, sample rates above 48 kHz, 24 bit or 32 bit float files, full automation or external sidechaining. Otherwise Standard at €74 covers a typical home recording setup.
+
+**Does MultitrackStudio support VST3 and CLAP?**
+
+Yes. Windows versions host CLAP, VST3 and VST2 plugins, and the Mac version adds Audio Unit v2 and v3. ARA 2 is supported for CLAP, VST3 and AU.
+
+**Does MultitrackStudio have pitch correction?**
+
+Yes, from Standard up. Vocal pitch correction and the Vocal Tuner effect are listed among the features Standard adds over Lite.
+
+**Are there independent tests in this review?**
+
+No. This review is based on the vendor's own feature list, tech specs and prices, read on 7 November 2026. Try Lite on your own hardware before buying.
+
+
+---
+
+# MultitrackStudio price: Lite, Standard and Pro compared, with upgrade and refund terms
+
+URL: https://multitrackstudio.github.io/pricing.html
+Updated: 2026-11-07
+
+The MultitrackStudio price is €74 for Standard and €134 for Pro, paid once with VAT included, and Lite is free to try. Here is what each level unlocks, what the upgrade costs and what the vendor says about refunds.
+
+## Key facts
+
+- Lite: Free to try, 3 tracks
+- Standard: €74 once, VAT included
+- Pro: €134 once, VAT included
+- Standard to Pro: €64
+- Updates: Lifetime, free
+- Refund: 30 day money back
+- Checked: 2026-11-07
+
+MultitrackStudio Standard costs €74 and Pro costs €134, both one time payments with VAT included and lifetime free updates. Lite is free to try with a three track limit. Registered Standard users can move to Pro for €64, and the vendor offers a 30 day money back guarantee.
+
+## MultitrackStudio price at a glance
+
+The MultitrackStudio price list on the vendor's buy page has two paid levels, both charged once. Standard is €74 and Pro is €134, and the vendor states that prices include VAT or sales tax. There is no subscription, no yearly renewal and no separate Mac price: the buy page lists Windows and Mac together.
+The vendor publishes prices only in euro. Payment is handled by Paddle, which shows the amount at checkout; the buy page does not list dollar or pound prices, so this guide does not either.
+| Edition | Price | Billing | Main limit |
+|---|---|---|---|
+| Lite | Free | None | 3 tracks, 30 minute tracks |
+| Standard | €74 | Once, VAT included | 2 channels, 44.1 or 48 kHz, 16 bit |
+| Pro | €134 | Once, VAT included | Up to 140 channels, 192 kHz |
+| Standard to Pro | €64 | Once, registered users | Not applicable |
+
+## What Standard adds over Lite
+
+Lite is the free level, and the download page names its main limit: no more than three tracks. Standard lifts that and adds a long list of tools that a home recordist will notice quickly.
+- Unlimited tracks, and tracks longer than 30 minutes
+- Vocal pitch correction, audio transpose and the Transposer effect
+- Master Limiter, Guitar Amp and Tuner
+- Auto Wah, Convolutor, Dynamics, Exciter and Phaser effects
+- Time stretching and warping in the audio and MIDI editors
+- Matrix Sampler, punch in and sound on sound recording
+- Export to FLAC, M4A and MP3, plus sample rate conversion
+
+## What Pro adds over Standard
+
+Pro is about bigger sessions and higher resolution. The tech specs limit lower editions to two simultaneous recording channels at 44.1 or 48 kHz into 16 bit files, although they can open higher quality files made elsewhere. Pro removes those limits.
+- Automation of all faders and rotary knobs
+- External sidechaining
+- Multichannel recording, up to 140 channels depending on the sound device
+- 24 bit, 32 bit and 32 bit float audio files
+- Recording at 88.2, 96, 176.4 and 192 kHz
+- Multitrack Editor and VariSpeed
+- Routing to sound device outputs and up to 4 MIDI in and out devices
+- Stem export, Multiband Compressor, Mid/Side Effect, Song Templates
+A simple rule: count the inputs you record at the same moment. If it is one or two, Standard is enough. If it is more, or you want 96 kHz projects, buy Pro. Our [MultitrackStudio review](review.html) explains the trade off in more detail.
+
+## Licence terms
+
+Each licence comes with a licence key file that, in the vendor's words, works for all your computers; the support page adds that the program is not tied to a computer. The buy page does not state a maximum number of machines, so none is given here. The licence is for the edition you buy, and every later version is a free update.
+Upgrading from Standard to Pro costs €64 for registered users. The buy page says you order it by following the download instructions in the email you received with your licence. Mixed platforms are covered: the same purchase runs on Windows and Mac, and the [MultitrackStudio system requirements](system-requirements.html) page lists the versions supported.
+
+## Refunds, discounts and coupons
+
+The buy page offers a 30 day money back guarantee. It does not describe the refund procedure, and the support page does not either; the vendor points to a contact form and a forum for questions, so use the contact page if you need to claim the guarantee.
+The vendor publishes no educational discount, no coupon codes and no seasonal sale on its pages as of 7 November 2026. Codes offered on third party sites are not from the vendor; the only price you can rely on is the one shown at Paddle checkout. Lite is the free way to evaluate before paying.
+
+Version and installer details are on the [MultitrackStudio download](download.html) page. If the price model does not suit you, the [MultitrackStudio alternatives](alternatives.html) page lists other options.
+
+## FAQ
+
+**How much is MultitrackStudio?**
+
+Standard is €74 and Pro is €134, each paid once with VAT included. Lite is free to try with a three track limit. Prices were read on the vendor's buy page on 7 November 2026.
+
+**Is MultitrackStudio a one time purchase?**
+
+Yes. Both paid editions are one time payments, and the vendor says every licence includes lifetime free updates. There is no subscription.
+
+**How much does the upgrade from Standard to Pro cost?**
+
+€64 for registered Standard users. The buy page says you order it through the download instructions sent by email with your licence.
+
+**Does MultitrackStudio have a refund policy?**
+
+The vendor offers a 30 day money back guarantee on its buy page. The steps for claiming it are not published, so contact the vendor through the contact page on multitrackstudio.com.
+
+**Is there a MultitrackStudio coupon or student discount?**
+
+The vendor's pages list no coupon codes and no educational discount as of 7 November 2026. The free Lite edition is the vendor's way to try before buying.
+
+**Can I pay in dollars?**
+
+The vendor lists prices in euro only. Payment goes through Paddle, which handles the payment options at checkout.
+
+
+---
+
+# MultitrackStudio download: Lite 11.4.2 for Windows and Mac, and how to install it
+
+URL: https://multitrackstudio.github.io/download.html
+Updated: 2026-11-07
+
+The MultitrackStudio download on the vendor's site is the Lite installer, 16.8 MB for Windows and 18.8 MB for Mac, version 11.4.2. Here is what you get, what Lite can do and how to get from installer to first recording.
+
+## Key facts
+
+- Version: 11.4.2, 20 October 2026
+- Windows installer: 16.8 MB
+- Mac download: 18.8 MB zip
+- Windows: 11, 10, 8, 7
+- Lite limit: 3 tracks
+- Manual: PDF, 1.9 MB
+- Checked: 2026-11-07
+
+Download MultitrackStudio Lite from multitrackstudio.com: a 16.8 MB installer for Windows 11 to 7 or an 18.8 MB zip for Mac, both version 11.4.2. Lite is free to try with up to three tracks. Standard and Pro are licences bought on the same site.
+
+## What the MultitrackStudio download includes
+
+The MultitrackStudio download page offers MultitrackStudio Lite, the free level of the program, in two files: an .exe installer for Windows and a .zip for Mac. The same page has the PDF manual (1.9 MB) in English, German and Dutch, and a link to the free MultitrackStudio Remote app for iPad on the App Store.
+Lite is the full program with limits. The vendor names three tracks as the main one; the buy page also shows that Lite caps tracks at 30 minutes and leaves out pitch correction, the guitar amp and MP3, FLAC and M4A export. Paying for Standard or Pro removes those limits, and the edition line is laid out on the [MultitrackStudio pricing](pricing.html) page.
+| File | Size | Platform |
+|---|---|---|
+| MultitrackStudio Lite for Windows | 16.8 MB | Windows 11, 10, 8, 7 |
+| MultitrackStudio Lite for Mac | 18.8 MB | macOS 27 to OS X 10.11 |
+| PDF manual | 1.9 MB | English, German, Dutch |
+| MultitrackStudio Remote | App Store | iPad, free |
+
+## Current version
+
+The vendor lists version 11.4.2, dated 20 October 2026. Its release notes add a Send Report Now button in the Contact window, VST3 support for MIDI 2.0 per note controllers and the Orchestral Articulation profile, a 175% interface size and a choice of .mid or .midi2 in Export MIDI Tracks. They also mention better CPU efficiency on Windows on ARM and fixes for playback over Remote Desktop and some MIDI 2.0 USB devices on Mac.
+Updates are free for life for paid licences, so the version you download today is the one buyers get as well.
+
+## Install and first run
+
+1. Download the right file: Click the download button and choose Windows (.exe) or Mac (.zip) on the vendor's page.
+2. Install: On Windows run the installer. On Mac unzip the file and move MultitrackStudio to the Applications folder.
+3. Set your devices: Open the Studio menu and choose Devices to select your sound device and MIDI devices. On Windows pick ASIO or the Windows driver type.
+4. Allow the microphone: On Windows 10 and 11, allow apps to access your microphone in Settings > Privacy, or recordings stay silent.
+5. Record a test song: Use Song > New, add a track from the Add Track menu, arm it with Rec and start the Transport.
+The full procedure with click track and mixdown is on our [how to record a song in MultitrackStudio](record-a-song.html) page. Check first that your Windows or macOS version is on the [MultitrackStudio system requirements](system-requirements.html) list.
+
+## Trial and licence terms
+
+Lite costs nothing and has no time limit stated on the vendor's pages; the limit is the feature set. When you buy Standard (€74) or Pro (€134), you receive a licence key file that the vendor says works on all your computers, plus download instructions by email. Updates are free for life and the buy page carries a 30 day money back guarantee.
+Only download from multitrackstudio.com. Copies from other sites are not supported by the vendor, and the licence key is the only legitimate way to unlock the paid editions.
+
+If the installer runs but recording does not work, see [MultitrackStudio troubleshooting](troubleshooting.html).
+
+## FAQ
+
+**Is the MultitrackStudio download free?**
+
+Yes. The download is MultitrackStudio Lite, which is free to try. Its main limit is three tracks; Standard and Pro are paid licences from the same site.
+
+**How big is the MultitrackStudio installer?**
+
+The Windows installer is 16.8 MB and the Mac zip is 18.8 MB, for version 11.4.2. The PDF manual is a separate 1.9 MB file.
+
+**Does Lite expire?**
+
+The vendor's pages do not mention a time limit for Lite. The restriction is on features: three tracks, 30 minute tracks and no MP3 export, among others.
+
+**How do I get Standard or Pro after buying?**
+
+The buy page says each licence comes with a licence key file, and paid users receive download instructions by email. The key works on all your computers.
+
+**Is there a MultitrackStudio app for iPad?**
+
+Yes. The download page links the free MultitrackStudio Remote app on the App Store, and the vendor also has a separate iPad version of MultitrackStudio whose songs can be opened in the desktop program.
+
+
+---
+
+# How to record with MultitrackStudio: from an empty song to a mixed file
+
+URL: https://multitrackstudio.github.io/record-a-song.html
+Updated: 2026-11-07
+
+How to record with MultitrackStudio, using the menu names from the vendor's quick start and mixdown chapters: set the devices, build a song track by track, mix it and export it.
+
+## Key facts
+
+- Devices: Studio > Devices
+- New song: Song > New
+- Add a track: Add Track menu
+- Export: Mix Down > Mix down to audio file
+- Check the mix: Mix Down > Playback mixed down file
+- Checked: 2026-11-07
+
+To record with MultitrackStudio, choose your sound device in Studio > Devices, start a song with Song > New, add tracks from the Add Track menu, press a track's Rec button and start the Transport. When all parts are in, set levels and effects and use Mix Down > Mix down to audio file to export the song.
+
+## Before you start
+
+Learning how to record with MultitrackStudio starts with the hardware. The vendor's minimum is a sound device that plays and records at the same time at 16 bit, 44.1 kHz, which almost any current interface does. A dedicated interface works better than the built in one, a microphone is needed for audio and a MIDI keyboard for MIDI.
+Install the program from the vendor's site first; our [MultitrackStudio download](download.html) page has the file sizes. Lite is enough to follow this guide, since it allows three tracks.
+- A sound device that records and plays at once
+- A microphone, and a preamp if your interface has no mic input
+- Headphones, so the click and earlier tracks do not leak into the microphone
+- On Windows 10 and 11, microphone access allowed in Settings > Privacy
+
+## Record a song step by step
+
+1. Choose your devices: Open the Studio menu and pick Devices. Select your audio interface and MIDI keyboard. On Windows, ASIO or the Windows driver type usually gives the lowest latency.
+2. Create a song: Choose Song > New. MultitrackStudio creates a folder for the song automatically.
+3. Add a click track: Open the Add Track menu and choose Click Track so you can play in time.
+4. Add a track: Use the Add Track menu again to add an empty audio or MIDI track. For a single microphone choose a mono audio file, so the vocal is not stuck in one side.
+5. Arm and set the level: Click the track's Rec button. If your sound device allows it, a recording level fader appears at the top of the window; the Input button also opens the level controls.
+6. Record: Start the Transport, play or sing along with the click, and stop the Transport when you finish.
+7. Build up the song: Add the next track and repeat. Earlier tracks play while you record the new one. Add reverb to vocals through an Effect Return section.
+8. Mix down: Set volumes and effects, then choose Mix Down > Mix down to audio file. Use Mix Down > Playback mixed down file to check the result.
+
+## Export options in Mix down to audio file
+
+The mixdown window has Start and End boxes, and the small arrows beside them load marker positions, so you can export just a section. Browse sets the file name and folder, Type sets the format, and Quality appears when a format has several quality levels. More reveals extra options: mono output, a different sample rate than the song's, the noise shaping switch for the dither and Remember Folder.
+Formats depend on the edition. Lite exports 16 bit WAV and AIF; MP3, FLAC and M4A export starts at Standard, and 24 bit and 32 bit float files are Pro only. The [MultitrackStudio pricing](pricing.html) page lists the full line.
+- For a CD, export a stereo 16 bit WAV file
+- Pro users with VariSpeed set will see Include Varispeed, which is on by default
+- Record MIDI tracks that use an external MIDI instrument to audio first, or they will be missing from the mix
+
+## Recording MIDI instead of audio
+
+A MIDI track records notes from a MIDI keyboard, the computer keyboard or a touchscreen. It plays through the built in MultitrackStudio Instruments (General MIDI sounds), the sampler or SoundFont player, external MIDI hardware, or a VST, CLAP or AU instrument plugin. After recording, edit the notes in the piano roll, score, drum or pattern editors.
+If you plan to open your MIDI files in another program, set MIDI File Format to 480 ticks per quarter note in Preferences; the vendor lists this among its fixes.
+
+## When something goes wrong
+
+The most common first session problems are a silent recording, the new take appearing on other tracks, and buffer errors. Each has a documented fix on our [MultitrackStudio troubleshooting](troubleshooting.html) page. If the program is slow or glitchy, check your computer against the [MultitrackStudio system requirements](system-requirements.html), especially the advice on disk speed and closing other programs.
+
+
+## FAQ
+
+**How do I export an MP3 from MultitrackStudio?**
+
+Choose Mix Down > Mix down to audio file and set Type to MP3. MP3 export needs Standard or Pro, and on Windows 7 an MP3 encoder must be installed.
+
+**Why is my vocal only in one speaker?**
+
+It was recorded to a stereo file, which leaves one channel silent. Record vocals and other single microphones to mono audio files.
+
+**How do I add a click track?**
+
+Open the Add Track menu and choose Click Track. It plays while you record so you can keep time.
+
+**Can I record several instruments at once?**
+
+Yes, up to two channels at once in Lite and Standard. Pro records up to 140 channels at once, depending on how many inputs your sound device has.
+
+**How do I check my mix after exporting?**
+
+Choose Mix Down > Playback mixed down file. It closes the current song and opens the exported file in a new song for listening.
+
+**Do I need Pro to make a CD?**
+
+No. Any edition can export a stereo 16 bit WAV file, which is what CD burning software needs. Pro users must remember to choose 16 bit when exporting.
+
+
+---
+
+# MultitrackStudio system requirements: Windows, Mac, ARM, drivers and plugins
+
+URL: https://multitrackstudio.github.io/system-requirements.html
+Updated: 2026-11-07
+
+The MultitrackStudio system requirements are light: Windows 11 to 7 or macOS back to OS X 10.11, any full duplex sound device and a reasonably fast processor. This page collects the operating systems, drivers, plugin formats and hardware advice from the vendor.
+
+## Key facts
+
+- Windows: 11, 10, 8, 7, 64 and 32 bit
+- Windows on ARM: Windows 11, ARM64EC
+- Mac: macOS 27 to OS X 10.11
+- Apple Silicon: Native, Universal Binary
+- CPU cores used: Up to 8
+- RAM: Not specified
+- Checked: 2026-11-07
+
+MultitrackStudio runs on Windows 11, 10, 8 and 7 (64 bit, 32 bit and ARM64) and on macOS 27 back to OS X 10.11, natively on Apple Silicon and Intel. You need a sound device that plays and records at once at 16 bit, 44.1 kHz. The vendor gives no RAM or screen minimum and recommends a fast processor and a 7200 RPM drive for larger songs.
+
+## Operating systems
+
+The MultitrackStudio system requirements cover old and new machines. On Windows there is a 64 bit build for 64 bit Windows 11, 10, 8 and 7, and a 32 bit build that runs on any of them. Windows on ARM is supported natively on ARM64 Windows 11; the program is built as ARM64EC, so x64 plugins still load.
+On Mac the program is a Universal Binary for Apple Silicon and Intel. The vendor's requirements and download pages list macOS 27 back to 10.12 plus OS X 10.11; the tech specs page still names macOS 26 as the newest, which looks like a page that has not caught up. There is no Linux version.
+| Platform | Supported | Notes |
+|---|---|---|
+| Windows 64 bit | 11, 10, 8, 7 | Native 64 bit build |
+| Windows 32 bit | 11, 10, 8, 7 | Pitch shifting needs SSE2 |
+| Windows on ARM | Windows 11 | ARM64EC, runs x64 plugins |
+| Mac | macOS 27 to OS X 10.11 | Apple Silicon and Intel |
+| Linux | No | Not offered |
+
+## Processor, memory and disk
+
+The vendor does not give a CPU model, a RAM figure or a screen size. It says realtime audio needs a fast processor, that most current computers are suitable, and that 96 or 192 kHz work needs a faster machine as well as the Pro edition. The engine spreads work over up to eight CPU cores.
+Memory needs are described as modest unless you load very large sampler patches, and plugins can use far more memory than the program itself. For songs with around ten audio tracks the vendor recommends a 7200 RPM hard drive over a 5400 RPM one; an SSD exceeds that easily.
+
+## Sound device and drivers
+
+The minimum is a sound device that handles 16 bit, 44.1 kHz stereo in full duplex, meaning it plays and records at the same time. The built in device works, but the vendor recommends a good quality interface. Windows driver types are ASIO, WASAPI (listed as Windows Drivers in the manual), MME and DirectSound; Mac uses Core Audio.
+- Cheap interfaces with 3.5 mm jacks may need adapters for XLR or 6.3 mm microphones
+- An external mic preamp improves quality and often supplies phantom power for condenser mics
+- Some stereo devices cannot set left and right input levels separately; two preamps or a small mixer solve that
+- On a Mac with separate input and output devices, an aggregate device in Audio MIDI Setup keeps them in sync
+
+## Plugin formats and MIDI
+
+On 64 bit Windows, MultitrackStudio hosts CLAP, VST3 and VST2 (32 and 64 bit) plugins. On Mac it hosts Audio Unit v2 and v3, CLAP, VST3 and VST2, all 64 bit. ARA 2 works with CLAP, VST3 and AU, which matters for pitch editors that use it.
+MIDI 1.0 works on every supported system. MIDI 2.0 needs 64 bit Windows with the Windows MIDI Services runtime, or macOS 11 and newer. FLAC files need Windows 10 or macOS 11, and MP3 on Windows 7 needs an extra encoder.
+
+## Requirements that depend on the edition
+
+Some limits come from the licence, not the computer. Lite and Standard record two channels at once at 44.1 or 48 kHz into 16 bit files; Pro records up to 140 channels, up to 192 kHz, into 24 bit or 32 bit float files. A multichannel interface is only fully used with Pro, so check the [MultitrackStudio pricing](pricing.html) page before you buy hardware or a licence.
+Once your system checks out, get the installer from the [MultitrackStudio download](download.html) page and run the vendor's quick start, rewritten on our [how to record with MultitrackStudio](record-a-song.html) page. Glitches and sync problems are covered in [MultitrackStudio troubleshooting](troubleshooting.html).
+
+
+## FAQ
+
+**Does MultitrackStudio run on Windows 11?**
+
+Yes. Both the 64 bit and 32 bit builds support Windows 11, 10, 8 and 7, and there is a native ARM64EC build for Windows 11 on ARM.
+
+**Does MultitrackStudio run natively on Apple Silicon?**
+
+Yes. The Mac version is a Universal Binary for Apple Silicon and Intel, both 64 bit. The vendor supports macOS 27 back to OS X 10.11.
+
+**How much RAM does MultitrackStudio need?**
+
+The vendor does not give a figure. It says memory needs are modest unless you use very large sampler patches, and that plugins can use much more memory than the program.
+
+**Does MultitrackStudio support ASIO?**
+
+Yes. On Windows it supports ASIO, WASAPI, MME and DirectSound. On Mac it uses Core Audio.
+
+**Is there a Linux version?**
+
+No. The vendor offers Windows, Mac and an iPad version, but no Linux build.
+
+**Can I use 32 bit VST plugins?**
+
+On Windows, yes: the 64 bit build hosts 32 and 64 bit VST2 plugins. On Mac all plugin formats must be 64 bit.
+
+
+---
+
+# MultitrackStudio not recording? The documented fixes for common problems
+
+URL: https://multitrackstudio.github.io/troubleshooting.html
+Updated: 2026-11-07
+
+When MultitrackStudio is not recording, records the wrong thing, drifts out of sync or stops with a buffer error, the vendor's troubleshooting chapter usually has the answer. Here are those fixes, grouped by symptom, with the exact settings to change.
+
+## Key facts
+
+- Silent recording on Windows: Allow microphone access
+- Gray Rec button: No device for the file
+- Buffer over/underrun: Close other programs
+- Out of sync: Update driver, try 48 kHz
+- Other apps silent: Shared mode in Devices
+- File backups: .~hdr copies on each save
+- Checked: 2026-11-07
+
+If MultitrackStudio is not recording on Windows 10 or 11, allow apps to access your microphone in Settings > Privacy, and check that a device is selected in Studio > Devices. Buffer over/underrun messages usually go away when you close other programs. Tracks out of sync are fixed by a newer driver, a 48 kHz song rate or a different driver type.
+
+## MultitrackStudio not recording, or recording silence
+
+The most common reason MultitrackStudio is not recording on Windows 10 and 11 is privacy settings. Open Start > Settings > Privacy and turn on the option that allows apps to access your microphone. Without it, the track records but the file stays silent.
+If a track's Play or Rec button turns gray when the Transport starts, no audio or MIDI device is available for that track's file. Open the Studio menu, choose Devices and select a device for input and output. Check also that the interface is connected before you start the program.
+
+## The recording contains the wrong sound
+
+Two problems come from how the sound device and the files are set up, not from the program.
+- Other tracks appear inside the track you just recorded: the sound device is recording its own output. Open the sound device's own mixer or control panel and turn off the loopback or what you hear input.
+- Vocals play in one speaker only: the vocal was recorded to a stereo file, so one channel is silent. Add the track as a mono audio file before recording a single microphone.
+
+## Glitches, static and buffer errors
+
+Clicks, static, a MIDI device that pauses, or the Transport stopping with a Buffer over/underrun message all point to the computer not keeping up. The vendor's fix is to close all other programs. If that is not enough, compare your machine with the [MultitrackStudio system requirements](system-requirements.html): high sample rates and many plugins need a faster processor, and larger songs benefit from a faster drive.
+On Windows with an ASIO driver, glitches that appear when you open windows or click around can be reduced by turning on MMCSS, which the manual describes in its chapter on compensating for driver issues.
+
+## Tracks out of sync or playing too fast
+
+When newly recorded tracks drift against earlier ones, the vendor suggests working through these steps in order.
+1. Install the latest driver for your sound device.
+2. Change the song's sample rate from 44.1 kHz to 48 kHz in Song Properties.
+3. On Windows, try a different driver type in Studio > Devices.
+4. On Windows with an early driver type and a Sound Blaster Live or similar card, turn on EMU10k1 44.1 kHz Sync Correction in Devices; turn it off on other cards.
+5. On a Mac with separate recording and playback devices, build an aggregate device in Audio MIDI Setup and use that.
+If songs play back too fast, the sample rate in the sound device's control panel does not match the one in Song Properties. Make them the same. On Windows, also set the Sound Scheme to No Sounds in the Control Panel so system sounds do not change the device rate.
+
+## Other programs and files
+
+The export steps that avoid the CD and MIDI file problems are on our [how to record with MultitrackStudio](record-a-song.html) page.
+- Other programs go silent while MultitrackStudio runs: turn on Shared mode in the Devices window (Windows 10 or newer).
+- A CD writing program will not load the master: export a stereo WAV file, and in Pro choose 16 bit.
+- Another program cannot load your MIDI files: set MIDI File Format to 480 ticks per quarter note in Preferences.
+- You need an earlier version of a file: MultitrackStudio makes a backup on every save with a ~ before the extension, so song.hdr is backed up as song.~hdr. Rename the backup to the original extension to restore it.
+
+## When the fixes do not help
+
+Version 11.4.2 added a Send Report Now button in the Contact window, which sends a report to the vendor from inside the program. The vendor's site also has a contact page and a user forum. Before writing, update to the latest version from the [MultitrackStudio download](download.html) page; updates are free for licence holders, and the release notes list fixes such as playback over Remote Desktop with the Windows driver type.
+If the program still does not fit your hardware, our [MultitrackStudio review](review.html) sums up where it is strong and where it is limited.
+
+
+## FAQ
+
+**Why is MultitrackStudio recording silence?**
+
+On Windows 10 and 11 the usual cause is that apps are not allowed to use the microphone. Turn it on in Start > Settings > Privacy, then check your input in Studio > Devices.
+
+**What does Buffer over/underrun mean in MultitrackStudio?**
+
+The computer could not deliver audio to the sound device in time. The vendor's advice is to close all other programs; a faster machine helps with high sample rates.
+
+**Why is the Rec button gray?**
+
+No audio or MIDI device is available for that track's file. Choose a device in the Devices window under the Studio menu.
+
+**Why do other apps go silent when MultitrackStudio is open?**
+
+The program has exclusive use of the sound device. Turn on Shared mode in the Devices window, which needs Windows 10 or newer.
+
+**How do I restore an older version of a song file?**
+
+MultitrackStudio keeps a backup on each save with a ~ added before the extension, such as .~hdr. Rename the backup to the original extension to use it.
+
+**Why do my tracks drift out of sync?**
+
+Usually a driver issue. Install the latest driver, try 48 kHz in Song Properties, or switch driver type in Devices; on Mac, use an aggregate device if input and output are separate devices.
+
+
+---
+
+# MultitrackStudio vs REAPER: price, licence, trial and platforms compared
+
+URL: https://multitrackstudio.github.io/vs-reaper.html
+Updated: 2026-11-07
+
+MultitrackStudio vs REAPER is a common question for home recordists who want to pay once. Both are compact, low cost recorders from small vendors; they differ in how they price, how long you can try them and how far updates go.
+
+## Key facts
+
+- MultitrackStudio: €74 Standard, €134 Pro
+- REAPER: $60 discounted, $225 commercial
+- Updates: Lifetime vs through 8.99
+- Trial: Lite, 3 tracks vs 60 days full
+- Linux: No vs yes
+- Checked: 2026-11-07
+
+Choose MultitrackStudio if you want a simpler recorder, lifetime free updates and a free Lite edition with no stated time limit; Standard costs €74 once. Choose REAPER if you want one fully featured edition, Linux support and a 60 day full trial; it costs $60 for personal use or small businesses and $225 commercially, with updates through version 8.99.
+
+## MultitrackStudio vs REAPER at a glance
+
+In a MultitrackStudio vs REAPER comparison, the first difference is the pricing model. MultitrackStudio sells three levels of one program, Lite, Standard and Pro, so you pay for the features you need. REAPER sells one fully featured program at two prices, depending on who you are and how much you earn. Facts below come from each vendor's own pages, read on 7 November 2026.
+|  | MultitrackStudio | REAPER |
+|---|---|---|
+| Vendor | Bremmers Audio Design | Cockos |
+| Current version | 11.4.2 | 7.85 |
+| Price | Standard €74, Pro €134, VAT included | $60 discounted, $225 commercial, taxes extra |
+| Who pays what | By features | By user type and revenue |
+| Free option | Lite, 3 tracks | None after evaluation |
+| Trial | Lite, no stated time limit | 60 days, fully functional |
+| Updates | Lifetime, free | Free through version 8.99 |
+| Windows | 11, 10, 8, 7 and ARM64 | XP to 11 |
+| Mac | macOS 27 to OS X 10.11 | macOS 10.5 to 26 |
+| Linux | No | Yes, Intel and ARM |
+| Installer | 16.8 MB Windows, 18.8 MB Mac | 17 MB Windows x64, 30 MB Mac Universal |
+
+## Price and licence
+
+MultitrackStudio Standard at €74 and Pro at €134 include VAT, and the buy page promises lifetime free updates. The licence key file works on all your computers. The detail of what each level adds is on our [MultitrackStudio pricing](pricing.html) page.
+REAPER's discounted licence is $60 and applies to individuals using it for personal use, businesses with yearly gross revenue of $20,000 or less, and schools and non profits. Everyone else pays $225 for the commercial licence. Taxes are added, and a licence bought today gets free upgrades through version 8.99. Over a long ownership the open ended update promise from Bremmers Audio Design is the stronger guarantee, while REAPER gives all features for $60 to those who qualify.
+
+## Trying before you buy
+
+The two trials work differently. MultitrackStudio Lite is free to try with no time limit stated by the vendor, but it caps you at three tracks and 30 minute tracks and leaves out several effects and export formats. REAPER's evaluation is fully functional for 60 days without registration.
+If you only need to know whether your interface and plugins work, both trials answer that. If you want to finish a full project before paying, REAPER's model gives more room; if you record short demos with few tracks, Lite may carry you a long way at no cost.
+
+## Features and workflow
+
+MultitrackStudio is built around a clear recorder workflow: a song folder, an Add Track menu, a mixer with effect returns and groups, and a Mix Down menu. It has its own instruments, Vocal Tuner pitch correction from Standard, touchscreen and pen support and MIDI 2.0. Plugin hosting covers CLAP, VST3, VST2 and AU with ARA 2.
+REAPER is a broader production environment that runs on more platforms, including Linux. It suits users who want to customise nearly everything; MultitrackStudio suits users who want fewer choices between the microphone and the finished file. Our [MultitrackStudio review](review.html) goes through its features in detail.
+
+## Which one to pick
+
+- Pick MultitrackStudio Standard if you record one or two sources at a time, want pitch correction and MP3 export, and prefer lifetime updates.
+- Pick MultitrackStudio Pro if you need multichannel recording and full automation with lifetime updates for €134.
+- Pick REAPER if you need Linux, want every feature in one licence, or qualify for the $60 discounted licence and want a 60 day full trial.
+- Look further if neither fits; our [MultitrackStudio alternatives](alternatives.html) page lists other recorders.
+
+The installer sizes and first steps are on the [MultitrackStudio download](download.html) page.
+
+## FAQ
+
+**Is MultitrackStudio cheaper than REAPER?**
+
+It depends on who you are. REAPER's discounted licence is $60 for personal users and small businesses, while MultitrackStudio Standard is €74 with VAT included. For commercial users REAPER is $225 against €134 for MultitrackStudio Pro.
+
+**Which has better updates, MultitrackStudio or REAPER?**
+
+MultitrackStudio promises lifetime free updates. A REAPER licence bought now covers free upgrades through version 8.99.
+
+**Does MultitrackStudio run on Linux like REAPER?**
+
+No. MultitrackStudio runs on Windows, Mac and iPad. REAPER offers Linux builds for Intel and ARM.
+
+**How long can I try each one?**
+
+MultitrackStudio Lite has no stated time limit but is capped at three tracks. REAPER offers a fully functional 60 day evaluation.
+
+**Do both support VST3 and CLAP plugins?**
+
+MultitrackStudio supports CLAP, VST3, VST2 and, on Mac, Audio Unit, with ARA 2. Check REAPER's own site for its current plugin support.
+
+
+---
+
+# MultitrackStudio alternatives: other multitrack recorders for Windows, Mac and Linux
+
+URL: https://multitrackstudio.github.io/alternatives.html
+Updated: 2026-11-07
+
+MultitrackStudio alternatives worth a look if you need Linux, a free program with no track limit, or a larger production DAW. Each entry links to its own vendor; check prices there, since this page only reports what MultitrackStudio's vendor publishes.
+
+## Key facts
+
+- Alternatives listed: 7
+- Closest on price: REAPER
+- Free options: Audacity, GarageBand, Waveform Free
+- Linux options: REAPER, Ardour, Audacity
+- MultitrackStudio Standard: €74 once
+- Checked: 2026-11-07
+
+The closest MultitrackStudio alternative is REAPER, a low cost DAW that also runs on Linux. For free recording, Audacity covers audio editing on every desktop system and GarageBand covers Mac users. Ardour suits Linux users who want an open source DAW, and Cakewalk, Mixcraft and Waveform suit Windows users who want a larger program.
+
+## Why look for MultitrackStudio alternatives
+
+People search for MultitrackStudio alternatives for a few clear reasons. Lite stops at three tracks. Standard records only two inputs at once at 44.1 or 48 kHz. There is no Linux version. And some users want a bigger program with more tutorials and third party content.
+If none of those apply to you, MultitrackStudio itself may be the answer: Standard is €74 once with lifetime updates, as the [MultitrackStudio pricing](pricing.html) page shows. If one does, the list below sorts the options by what they solve.
+
+## The alternatives
+
+- REAPER: The closest match on price and size. One fully featured edition, a 60 day full trial and builds for Windows, Mac and Linux.
+- Audacity: Free, open source audio recorder and editor for Windows, Mac and Linux. Good for recording and editing audio, with no MIDI sequencing to speak of.
+- Ardour: Open source DAW for Linux, Mac and Windows, aimed at multichannel recording and mixing.
+- GarageBand: Apple's free recorder for Mac, with instruments and loops. Mac only.
+- Tracktion Waveform Free: A free edition of Tracktion's DAW for Windows, Mac and Linux, with plugin hosting.
+- Cakewalk by BandLab: A long running Windows DAW now developed under BandLab; check its site for current editions and terms.
+- Mixcraft: A Windows recorder from Acoustica aimed at home users, sold in several editions.
+
+## Pick by the problem you need to solve
+
+Prices and editions for these programs change, so read them on each vendor's site before deciding. This page does not quote them because they were not checked against the vendors' purchase pages today, except for REAPER, which is covered in [MultitrackStudio vs REAPER](vs-reaper.html).
+| If you need | Look at | Why |
+|---|---|---|
+| Linux | REAPER, Ardour, Audacity | MultitrackStudio has no Linux build |
+| Free with no track cap | Audacity, GarageBand, Waveform Free | Lite stops at 3 tracks |
+| Mac only, free | GarageBand | Comes from Apple |
+| Low price, all features | REAPER | One edition, discounted licence |
+| Bigger Windows DAW | Cakewalk, Mixcraft | Larger feature sets and communities |
+
+## When MultitrackStudio is still the better pick
+
+MultitrackStudio holds up well against these options in a few areas. The price is paid once and the vendor promises lifetime free updates. The licence key works on all your computers, Windows and Mac. It hosts CLAP, VST3, VST2 and AU plugins with ARA 2, supports MIDI 2.0, and runs natively on Apple Silicon and Windows on ARM. Touchscreen and pen input have their own chapters in the manual.
+The [MultitrackStudio review](review.html) covers its strengths and limits in one place.
+- One time price, lifetime updates
+- Same licence on Windows and Mac
+- Native ARM builds on both platforms
+- Free Lite edition to test your hardware
+
+Version and installer sizes are on the [MultitrackStudio download](download.html) page.
+
+## FAQ
+
+**What is the best free alternative to MultitrackStudio?**
+
+It depends on your system. Audacity is free on Windows, Mac and Linux for audio recording and editing; GarageBand is free on Mac with instruments; Waveform Free is a free DAW on all three systems.
+
+**Is there a MultitrackStudio alternative for Linux?**
+
+Yes. REAPER, Ardour and Audacity all run on Linux. MultitrackStudio itself is Windows, Mac and iPad only.
+
+**Is REAPER better than MultitrackStudio?**
+
+Neither is better for everyone. REAPER has one fully featured edition, Linux support and a 60 day trial; MultitrackStudio has a simpler workflow, lifetime updates and a free Lite edition.
+
+**Why choose MultitrackStudio over a free program?**
+
+The paid editions add unlimited tracks, pitch correction, MP3 export and, in Pro, multichannel recording and automation, for a one time price with lifetime updates. Lite lets you test it first at no cost.

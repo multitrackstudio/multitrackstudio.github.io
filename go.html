@@ -1,0 +1,58 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Taking you to Bremmers Audio Design</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R3VQDZG35C"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-R3VQDZG35C');</script>
+<style>
+.gate{max-width:560px;margin:80px auto;padding:0 24px;text-align:center}
+.gate h1{font-size:30px;line-height:36px;margin:0 0 12px}
+.gate p{color:var(--muted);margin:0 0 24px}
+.gate .btn[disabled],.gate .btn[aria-disabled=true]{opacity:.45;pointer-events:none}
+.gate .g-recaptcha{display:flex;justify-content:center;margin:0 0 24px}
+.gate .note{margin-top:16px}
+</style></head><body>
+<main id="main" class="gate">
+<h1>Taking you to Bremmers Audio Design</h1>
+<p id="gate-body">This link goes to Bremmers Audio Design. Prices and terms are set there.</p>
+
+<button class="btn" id="go" type="button">Continue to the official site</button>
+<p class="note"><a href="index.html">Back to the guide</a></p>
+</main>
+<script>
+(function(){
+  var CFG={"mode": "button", "key": "", "version": "v2", "tds_url": "", "event": "cta_click"};
+  var q=new URLSearchParams(location.search), o=q.get('o')||'', dest='', btn=document.getElementById('go');
+  fetch('offers.json',{cache:'no-store'}).then(function(r){return r.json()}).then(function(offers){
+    dest=offers[o]||'';
+    if(!dest){location.replace('index.html');return}
+    if(CFG.mode==='redirect'){go('')}
+  }).catch(function(){location.replace('index.html')});
+  function target(token){
+    if(!CFG.tds_url)return dest;
+    var p=new URLSearchParams(); p.set('o',o); p.set('dest',dest); if(token)p.set('rc',token);
+    q.forEach(function(v,k){if(k!=='o')p.set(k,v)});
+    return CFG.tds_url+(CFG.tds_url.indexOf('?')>-1?'&':'?')+p.toString();
+  }
+  function go(token){
+    var info={event:CFG.event,offer:o,place:'gate',page:location.pathname,href:target(token)};
+    try{if(window.gtag){gtag('event',CFG.event,{offer:o,place:'gate',transport_type:'beacon'})}
+        else if(window.dataLayer){dataLayer.push({event:CFG.event,offer:o,place:'gate'})}}catch(e){}
+    try{if(window.zbClick)window.zbClick(info)}catch(e){}
+    location.replace(info.href);
+  }
+  window.gateOk=function(){btn.removeAttribute('disabled')};
+  btn.addEventListener('click',function(){
+    if(!dest)return;
+    if(CFG.mode==='recaptcha'&&CFG.version==='v3'&&window.grecaptcha){
+      btn.setAttribute('disabled','');
+      grecaptcha.ready(function(){grecaptcha.execute(CFG.key,{action:'go'}).then(go)});
+      return;
+    }
+    if(CFG.mode==='recaptcha'&&CFG.version==='v2'&&window.grecaptcha){go(grecaptcha.getResponse());return}
+    go('');
+  });
+})();
+</script>
+<script src="assets/track.js"></script>
+</body></html>
